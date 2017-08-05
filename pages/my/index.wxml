@@ -8,9 +8,16 @@
     </view>
     <block wx:if="{{userInfo.avatarUrl != ''}}">
     <view class="my-wallet tapbar" bindtap="movetoWallet">
-        <text>我的钱包</text>
-        <text>></text>
+        <text>我的积分</text>
+        <text>200 ></text>
     </view>
     </block>
+     <block wx:if="{{userInfo.avatarUrl != ''}}">
+    <view class="my-wallet tapbar" bindtap="movetoWallet">
+        <text>我的棋友</text>
+        <text>5 ></text>
+    </view>
+    </block>
+
     <button bindtap="bindAction" class="btn-login" hover-class="gray" type="{{bType}}" >{{actionText}}</button>
 </view>

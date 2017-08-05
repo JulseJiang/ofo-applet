@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<div id="game">
+    <canvas id="board" width="300" height="200"></canvas>
+    <div id="seeds"></div>
+
+</div>

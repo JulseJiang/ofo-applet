@@ -1,5 +1,7 @@
 {
-  "pages":[
+  "pages": [
+    "pages/test/canvas",
+    "pages/play/index",
     "pages/index/index",
     "pages/warn/index",
     "pages/scanresult/index",
@@ -8,11 +10,11 @@
     "pages/wallet/index",
     "pages/charge/index",
     "pages/logs/logs"
+  
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#b9dd08",
-    "navigationBarTitleText": "ofo 共享单车",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "方舟-六子棋",
+    "navigationBarTextStyle": "white"
   }
 }
